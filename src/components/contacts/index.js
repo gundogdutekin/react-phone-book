@@ -5,11 +5,11 @@ import List from "./list";
 function Contacts() {
   const [contacts,setContacts]=useState([])
   return (
-    <>
+    <div className="container">
     <List contacts={contacts}/>
     <Form addContacts={setContacts} contacts={contacts}/>
       
-    </>
+    </div>
   
   )
 }
