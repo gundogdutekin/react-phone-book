@@ -25,15 +25,14 @@ function List({ contacts }) {
         />
       </div>
       <div className='list-container'>
-        <ol className='list'>
+      <ol className='list'>
           {contacts.map((contact, index) => ( 
             <li key={index}>
-              <span className='nameList'>{contact.fullName}</span>
-              <span className='arrow'>----</span>
-              <span className='phoneList'>{contact.phone}</span>
+              {contact.fullName}  ---- {contact.phone} 
             </li>
           ))}
         </ol>
+        
       </div>
     </>
   )
