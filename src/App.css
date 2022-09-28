@@ -3,6 +3,7 @@
  justify-content: center;
  align-items: center;
  min-width: 100vw;
+ min-height: 100vh;
   
 }
 input{
@@ -10,10 +11,7 @@ input{
  width: 33.33%;
  font-size: 2rem;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,6 +26,9 @@ input{
 }
 .mt-1{
   margin-top:10px;
+}
+.container h1{
+  margin : 0 auto;
 }
 .container{
   display: flex;
@@ -119,15 +120,4 @@ label{
   border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

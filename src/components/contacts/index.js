@@ -6,6 +6,7 @@ function Contacts() {
   const [contacts,setContacts]=useState([])
   return (
     <div className="container">
+      <h1>PHONE BOOK</h1>
     <List contacts={contacts}/>
     <Form addContacts={setContacts} contacts={contacts}/>
       
