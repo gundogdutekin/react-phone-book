@@ -28,7 +28,7 @@ function List({ contacts }) {
       <ol className='list'>
           {contacts.map((contact, index) => ( 
             <li key={index}>
-              {contact.fullName}  ---- {contact.phone} 
+              <span>{contact.fullName}</span> <span> {contact.phone}</span> 
             </li>
           ))}
         </ol>

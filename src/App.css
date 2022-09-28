@@ -9,7 +9,7 @@
 input{
  height: 2rem;
  width: 33.33%;
- font-size: 2rem;
+ font-size: 1rem;
 }
 
 
@@ -37,7 +37,7 @@ input{
   background-color: rgb(194, 194, 244);
   border:#b7c8ec solid 1px;
   border-radius: 5px;
-  width: 70vw;
+  width: 60vw;
   padding:5rem;
 }
 
@@ -65,23 +65,24 @@ input{
   justify-content: center;
   list-style:decimal;
   font-size: 20px;
-  font-weight: bold;
+  
  
 
 }
 .list li{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
-  width: 33.33%;
+  width: 34%;
   justify-self: center;
-  background-color: rgb(238, 202, 96);
-  border:1px solid rgb(241, 206, 119);
+  background-color: rgb(234, 230, 217);
+  border:1px solid rgb(236, 233, 225);
   border-radius: 5px;
   margin-bottom:2px;
-  padding: 2px;
- 
+  padding: 3px;
+  margin-left: -10px;
+  color: #423f3f;
 }
 .form{
   display: flex;
@@ -91,19 +92,6 @@ input{
 
 }
 
-
-.nameList{
- 
-  width: 100%;
-}
-.phoneList{
-
-  width: 100%;
-}
-.arrow{
-
-  width: 33.33%;
-}
 label{
   margin-right: 10px;
   width: 33.33%;
@@ -111,16 +99,7 @@ label{
   height: 2rem;
   font-size: 1.5rem;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 .phone{
   width: 33.33%;
   font-size: 1.5rem;
